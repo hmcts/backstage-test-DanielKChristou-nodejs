@@ -1,0 +1,11 @@
+nodejs:
+  applicationPort: 8080
+  aadIdentityName: backstage-test
+  ingressHost: backstage-test-DanielKChristou-nodejs.{{ .Values.global.environment }}.platform.hmcts.net
+  image: 'hmctspublic.azurecr.io/backstage-test/DanielKChristou-nodejs:latest'
+  #  Uncomment once the vault containing the app insights key has been set up
+  #  keyVaults:
+  #    backstage-test:
+  #      secrets:
+  #        - AppInsightsInstrumentationKey
+  environment:
