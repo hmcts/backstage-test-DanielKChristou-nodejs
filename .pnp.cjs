@@ -42,7 +42,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/cookie-parser", "npm:1.4.3"],\
             ["@types/csurf", "npm:1.11.2"],\
             ["@types/es6-promisify", "npm:6.0.1"],\
-            ["@types/express", "npm:4.17.14"],\
+            ["@types/express", "npm:4.17.25"],\
             ["@types/glob", "npm:8.1.0"],\
             ["@types/jest", "npm:29.5.2"],\
             ["@types/lodash", "npm:4.14.195"],\
@@ -6656,14 +6656,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:4.17.14", {\
-          "packageLocation": "./.yarn/cache/@types-express-npm-4.17.14-076e1b4711-15c1af46d0.zip/node_modules/@types/express/",\
+        ["npm:4.17.25", {\
+          "packageLocation": "./.yarn/cache/@types-express-npm-4.17.25-3e4c367cc7-285d160084.zip/node_modules/@types/express/",\
           "packageDependencies": [\
-            ["@types/express", "npm:4.17.14"],\
+            ["@types/express", "npm:4.17.25"],\
             ["@types/body-parser", "npm:1.19.2"],\
-            ["@types/express-serve-static-core", "npm:4.17.28"],\
+            ["@types/express-serve-static-core", "npm:4.19.9"],\
             ["@types/qs", "npm:6.9.7"],\
-            ["@types/serve-static", "npm:1.13.10"]\
+            ["@types/serve-static", "npm:1.15.10"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -6676,6 +6676,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:17.0.21"],\
             ["@types/qs", "npm:6.9.7"],\
             ["@types/range-parser", "npm:1.2.4"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:4.19.9", {\
+          "packageLocation": "./.yarn/cache/@types-express-serve-static-core-npm-4.19.9-ed37b46b73-5872f2bfc1.zip/node_modules/@types/express-serve-static-core/",\
+          "packageDependencies": [\
+            ["@types/express-serve-static-core", "npm:4.19.9"],\
+            ["@types/node", "npm:17.0.21"],\
+            ["@types/qs", "npm:6.9.7"],\
+            ["@types/range-parser", "npm:1.2.4"],\
+            ["@types/send", "npm:1.2.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -6706,6 +6717,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-html-minifier-terser-npm-6.1.0-707ea07fcb-eb843f6a8d.zip/node_modules/@types/html-minifier-terser/",\
           "packageDependencies": [\
             ["@types/html-minifier-terser", "npm:6.1.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/http-errors", [\
+        ["npm:2.0.5", {\
+          "packageLocation": "./.yarn/cache/@types-http-errors-npm-2.0.5-fc57abf6db-a88da66936.zip/node_modules/@types/http-errors/",\
+          "packageDependencies": [\
+            ["@types/http-errors", "npm:2.0.5"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -6885,6 +6905,25 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@types/send", [\
+        ["npm:0.17.6", {\
+          "packageLocation": "./.yarn/cache/@types-send-npm-0.17.6-fe650e1f5c-5bd287f135.zip/node_modules/@types/send/",\
+          "packageDependencies": [\
+            ["@types/send", "npm:0.17.6"],\
+            ["@types/mime", "npm:1.3.2"],\
+            ["@types/node", "npm:17.0.21"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:1.2.1", {\
+          "packageLocation": "./.yarn/cache/@types-send-npm-1.2.1-64553bf549-3b8388edee.zip/node_modules/@types/send/",\
+          "packageDependencies": [\
+            ["@types/send", "npm:1.2.1"],\
+            ["@types/node", "npm:17.0.21"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@types/serve-favicon", [\
         ["npm:2.5.4", {\
           "packageLocation": "./.yarn/cache/@types-serve-favicon-npm-2.5.4-5e7a52df3a-601173dfd5.zip/node_modules/@types/serve-favicon/",\
@@ -6902,6 +6941,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/serve-static", "npm:1.13.10"],\
             ["@types/mime", "npm:1.3.2"],\
             ["@types/node", "npm:17.0.21"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:1.15.10", {\
+          "packageLocation": "./.yarn/cache/@types-serve-static-npm-1.15.10-7bd7926ff3-f216eef2aa.zip/node_modules/@types/serve-static/",\
+          "packageDependencies": [\
+            ["@types/serve-static", "npm:1.15.10"],\
+            ["@types/http-errors", "npm:2.0.5"],\
+            ["@types/node", "npm:17.0.21"],\
+            ["@types/send", "npm:0.17.6"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -7552,7 +7601,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/cookie-parser", "npm:1.4.3"],\
             ["@types/csurf", "npm:1.11.2"],\
             ["@types/es6-promisify", "npm:6.0.1"],\
-            ["@types/express", "npm:4.17.14"],\
+            ["@types/express", "npm:4.17.25"],\
             ["@types/glob", "npm:8.1.0"],\
             ["@types/jest", "npm:29.5.2"],\
             ["@types/lodash", "npm:4.14.195"],\
